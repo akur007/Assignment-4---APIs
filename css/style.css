@@ -1,0 +1,84 @@
+/* Reset styles */
+html, body, header, main {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #24292e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+#student-info {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-card {
+    width: 45%;
+    background-color: #e2e4eb;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-card h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.info-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.info-card hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center; /* Center-align text */
+    display: none; /* Initially hide the footer */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    width: 100%; /* Take up the full width of the viewport */
+    bottom: 0; /* Align to the bottom of the viewport */
+    z-index: 999; /* Ensure the footer appears on top of other elements */
+}
+
+footer a {
+    color: red; /* Set link color to red */
+}
+
+.show-footer {
+    display: block; /* Show the footer */
+}
